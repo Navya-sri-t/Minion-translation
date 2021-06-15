@@ -1,16 +1,39 @@
+:root{
+    --primary:#FBBF24;
+    --secondary:yellow;
+}
 .header{
     padding:1.5rem;
-    background-color: yellow;
+    background-color:var(--secondary);
     text-align:center;
     border-bottom-left-radius: 0.5rem;
     font-family: 'Gloria Hallelujah', cursive;
 }
 .footer{
     padding:1.5rem;
-    background-color: yellow;
+    background-color:var(--secondary);
     text-align:center;
-    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
     font-family: 'Gloria Hallelujah', cursive;
 }
+button {
+    background-color:var(--secondary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
 
+}
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 80%;
+    margin: 1rem;
+    padding:1rem;
+    font-size: larger;
+    font-family:'Gloria Hallelujah', cursive ;
+}
+p{
+    text-align: center;
 }
